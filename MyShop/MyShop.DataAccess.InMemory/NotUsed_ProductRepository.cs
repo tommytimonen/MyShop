@@ -9,6 +9,13 @@ using MyShop.Core.Models;
 
 namespace MyShop.DataAccess.InMemory
 {
+
+    /*************************************************************************
+    
+        This class is no longer used since we added the generic class InMemoryRepository
+
+    *************************************************************************/
+
     public class ProductRepository
     {
         ObjectCache cache = MemoryCache.Default;

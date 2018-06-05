@@ -8,6 +8,12 @@ using System.Threading.Tasks;
 
 namespace MyShop.DataAccess.InMemory
 {  
+    /*************************************************************************
+    
+        This class is no longer used since we added the generic class InMemoryRepository
+
+    *************************************************************************/
+
     public class ProductCategoryRepository
     {
         ObjectCache cache = MemoryCache.Default;

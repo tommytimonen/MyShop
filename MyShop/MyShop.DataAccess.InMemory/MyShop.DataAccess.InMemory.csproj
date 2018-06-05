@@ -41,8 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProductCategoryRepository.cs" />
-    <Compile Include="ProductRepository.cs" />
+    <Compile Include="InMemoryRepository.cs" />
+    <Compile Include="NotUsed_ProductCategoryRepository.cs" />
+    <Compile Include="NotUsed_ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +51,9 @@
       <Project>{54cf9637-931f-4786-8e81-e01ab0e393d6}</Project>
       <Name>MyShop.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

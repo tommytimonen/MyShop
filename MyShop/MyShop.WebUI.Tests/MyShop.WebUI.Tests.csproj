@@ -98,12 +98,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyShop.WebUI\MyShop.WebUI.csproj">
-      <Project>{E5E74302-F31C-4245-9445-164368825228}</Project>
-      <Name>MyShop.WebUI</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
