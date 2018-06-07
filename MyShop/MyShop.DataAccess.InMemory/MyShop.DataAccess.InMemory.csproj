@@ -42,8 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InMemoryRepository.cs" />
-    <Compile Include="NotUsed_ProductCategoryRepository.cs" />
-    <Compile Include="NotUsed_ProductRepository.cs" />
+    <Compile Include="Not used\NotUsed_ProductCategoryRepository.cs" />
+    <Compile Include="Not used\NotUsed_ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
